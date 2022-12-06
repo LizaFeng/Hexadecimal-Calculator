@@ -17,3 +17,5 @@ Calculator Input State Functionality
 Error Handling Input State
 - The user would be prevented from dividing a number by zero.
 - There is a cap for the amount of characters that the user could enter to the calculator.
+- Users will not be able to enter in an operation as their first input. They would have to enter in a number before an operation is entered.
+- Users will not be able to enter in multiple operations in a row.
