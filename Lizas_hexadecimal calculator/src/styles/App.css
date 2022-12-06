@@ -1,0 +1,63 @@
+body {
+  margin-top: 10%
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.calculator {
+  text-align: center;
+}
+
+.operators {
+  margin: 1rem;
+}
+
+.operators button {
+  width: 80px;
+  margin: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.digits {
+  margin: 1rem;
+}
+
+.digits button {
+  width: 60px;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+.App {
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 400px;
+  margin: auto;
+  display: grid;
+
+}
+
+.outputScreen {
+  width: 98%;
+  margin: auto;
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  text-align: right;
+  border-radius: 6px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+
+}
